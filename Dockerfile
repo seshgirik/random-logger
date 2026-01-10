@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.23.2
 RUN apk add --no-cache bc
 COPY ./entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]
